@@ -1,0 +1,27 @@
+# Secrets — never commit
+.env
+*.key
+credentials.json
+
+# Dataset (download separately, see README)
+data/
+*.zip
+Benchmarking Dataset/
+
+# Results with raw model output can be large
+results/overlays/
+results/results.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

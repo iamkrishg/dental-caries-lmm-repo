@@ -1,0 +1,10 @@
+# Core
+anthropic>=0.40.0
+pillow>=10.0.0
+
+# Overlays (optional but recommended)
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Entra ID auth fallback (only needed if not using FOUNDRY_API_KEY)
+azure-identity>=1.15.0
